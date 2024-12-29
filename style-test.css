@@ -298,7 +298,8 @@ body.no-scroll{
 }
 
 .wrapper{
-  color: whitesmoke;/*
+  color: whitesmoke;
+  flex-wrap: wrap;/*
   display: flex;
   justify-content: center;
   align-items: center;
@@ -307,23 +308,20 @@ body.no-scroll{
 
 .left-text{
   font-size: 0.5em;
-  text-align: left;
   line-height: 1.5;
-  margin-right: 175px;
   pointer-events: none;
   position: absolute;
-  left: 40%;
+  left: 25%;
   top: 50%;
   transform: translate(-50%, -50%);
   display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 5px;
 }
 
 .left-text p{
   margin: 0;
-  width: 300px;
+  width: auto;
   white-space: normal;
 }
 
