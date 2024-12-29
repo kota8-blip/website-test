@@ -312,8 +312,8 @@ body.no-scroll{
   margin-right: 175px;
   pointer-events: none;
   position: absolute;
-  left: 50%;
-  top: 60%;
+  left: 40%;
+  top: 50%;
   transform: translate(-50%, -50%);
   display: flex;
   justify-content: flex-start;
@@ -323,8 +323,8 @@ body.no-scroll{
 
 .left-text p{
   margin: 0;
-  max-width: 100%;
-  white-space: nowrap;
+  width: 300px;
+  white-space: normal;
 }
 
 .left-text .first-line{
@@ -382,6 +382,7 @@ body.no-scroll{
     flex-direction: column;
     margin: 0;
     top: 65%;
+    left: 50%;
   }
   }
 
